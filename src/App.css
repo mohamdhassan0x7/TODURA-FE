@@ -1,3 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+  font-family: 'Rubik', sans-serif;
+  color: #525252;
+
+}
+.clickable{
+  cursor: pointer;
+}
+.clickable{
+  cursor: pointer;
+}
+
+.btnGreen{
+  background: #7fc6a6 !important;
+  border-color: #7fc6a6 !important;
+}
+.btnGreen:hover{
+  background: #258d8c !important;
+}
+
+
+.btnRed{
+  background: #fd889b !important;
+  border-color: #fd889b !important;
+}
+
+.btnRed:hover{
+  background: #fe748b !important;
+}
+
+.btnBlue{
+  background: #4cb7d9 !important;
+  border-color: #4cb7d9 !important;
+}
+.btnBlue:hover{
+  background: #3aa2c9 !important;
+}
+
+
+.text-colRed{
+  color:#fd889b ;
+}
+
+.text-Green{
+  color: #7fc6a6;
+}
+.text-Green:hover{
+  color:#258d8c
+}
+
+.text-Red{
+  color: #febac7;
+}
+.text-Red:hover{
+  color:#fd889b
+}
+
+.bg-Red{
+  background: #febac7 !important;
+}
+
+.bg-Green{
+  background: #258d8c !important;
+}
+.bg-Grey{
+  background: #a0a0a0;
+}
+.prog{
+  color: #258d8c;
+}
+
+.btnYellow{
+  background: #feba73 !important;
+  border-color:#feba73 !important;
+}
+.btnYellow:hover{
+  background: #f59e4f !important;
+}
+.w-10{
+  width: 10%;
+}
+.text-Grey{
+  color: #a0a0a0;
+  
+}
+.text-Grey-bold{
+  color: #919191;
+  font-weight: bold;
+}
+.bg-Yellow{
+  background: #f59e4f;
+}
+.list-hover:hover{
+  background: #f3f3f3 !important;
+}
+
+.bar{
+  height: 2px;
+  width: 60%;
+  background: #ebeaea;
+}
+
+.rm-decoration{
+  text-decoration: none;
+}
+.text-Blue{
+  color: #4cb7d9
+}
+
+.text-Blue:hover{
+  color: #3aa2c9 !important;
+}
+
+.bg-Blue{
+  background: #3aa2c9;
+}
+.w-35{
+  width: 40%;
+}
+
+
+
+
+.fadeIn {
+  animation: fadeInAnimation ease 2.5s;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+   
+}
+
+.bar-time{
+  height: 2px;
+  width: 25%;
+  background: #d5d5d5;
+}
+
 .App {
   text-align: center;
 }
@@ -6,6 +151,7 @@
   height: 40vmin;
   pointer-events: none;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +181,144 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.res-show{
+  display: none;
+}
+
+.p-res-3{
+  padding: 15px;
+}
+.p-res-3-rm{
+  padding: 15px;
+}
+
+.p-res-5{
+  padding: 30px;
+}
+.p-res-5P{
+  padding: 30px;
+}
+
+.res-w-75{
+  width: 75% !important;
+}
+.res-w-100{
+  width: 100% !important;
+}
+.res-w-50{
+  width: 50% !important;
+}
+
+.res-fa-2x{
+  font-size: 25px;
+}
+
+.res-w-50-2h{
+  width: 50%;
+}
+
+.m-auto{
+  margin: auto !important;
+}
+
+.w-75-2h{
+  width: 75% !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .w-75-2h{
+    width: 90% !important;
+  }
+  
+  .res-fa-2x{
+    font-size: 20px;
+  }
+  .res-hide-small{
+      display: none !important;
+  }
+  .p-res-3-rm{
+    padding: 0px !important;
+  }
+  .p-0{
+    padding: 0px !important;
+  }
+  .res-s-test{
+    font-size: small !important;
+  }
+  .res-md-smallS{
+    font-size: 20px !important;
+  }
+  .res-remove-flex{
+    display: inline !important;
+  }
+  .res-w-50{
+    width: 100% !important;
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+  }
+  .bar-time{
+    width: 10%;
+  }
+  .w-100-small{
+    width: 100% !important;
+  }
+  .res-show-img{
+    display: block !important;
+  }
+}   
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  
+  .res-w-50-2h{
+    width: 100% !important;
+  }
+  .p-res-5{
+    padding: 5px !important;
+  }
+  .p-res-5P{
+    padding: 10px;
+  }
+  .res-hide{
+      display: none;
+  }
+  .res-show{
+      display: inline;
+      width: 100% !important;
+      margin: 0 !important;
+  }
+  .flex-res{
+     display: inline !important;
+     /* justify-content: center !important; */
+     margin: auto !important;
+  }
+
+
+  .res-w-100{
+    width: 50% !important;
+    margin: auto !important;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+  .res-small-text{
+    font-size: small;
+  }
+  .res-extra-p{
+    padding: 25px !important;
+  }
+ 
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+
+  .res-med-text{
+      font-size: medium;
+      
+  }
+
 }

@@ -1,0 +1,2 @@
+red ==> rgba(239,58,77,255)
+beige =>#feeacf

@@ -1,0 +1,29 @@
+
+.hoover:hover{
+    background: rgb(75, 79, 83) !important;
+}
+
+.w-20{
+    width:20% !important;
+}
+
+.clicked{
+    background: rgb(75, 79, 83) !important;
+}
+
+.navii{
+    position: fixed;
+    width: inherit;
+    margin: 0 !important;
+    z-index: 99999999;
+}
+
+.w-mine{
+    width: inherit !important;
+}
+
+
+
+
+
+
